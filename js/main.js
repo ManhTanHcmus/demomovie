@@ -236,8 +236,13 @@ Created: Colorib
       $(this).prev().addClass('active');
        $(this).prev().removeClass("load");
      
-     $(".load").addClass("classSelect");
+     $(".load").css({"border-color": "red", 
+             "border-width":"1px", 
+             "border-style":"solid"});
     $("#displayID").css("display", "block");
     });
 
+$('input[type="checkbox"]').on('change', function() {
+   $('input[type="checkbox"]').not(this).prop('checked', false);
+});
 })(jQuery);

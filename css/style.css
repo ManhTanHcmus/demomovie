@@ -3151,6 +3151,12 @@ ol {
 .contact__map iframe {
 	width: 100%;
 }
+.footer__social:hover .checkk{
+	background: #F79917;
+}
+.footer__social .load{
+	background: #4CAF50 !important;
+}
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
